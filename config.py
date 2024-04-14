@@ -17,22 +17,22 @@ API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204")) # give admin rights all fouth channels ( add yr bot into yr channels)
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1837294444"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ytviralverse:2VPjBQ95DDnmVFu8@streamify.dvncffo.mongodb.net/?retryWrites=true&w=majority&appName=streamify")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser0")
 
 # force sub channel id, if you want enable force sub
 # give admin rights all fouth channels ( add yr bot into yr channels)
 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001473043276"))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1001495022147"))
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1001572271892"))
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001723817903"))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002049574995"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1001567792175"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002097822007"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001860646987"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
