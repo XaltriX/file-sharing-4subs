@@ -1,8 +1,3 @@
-#(©)Codeflix_Bots
-
-
-
-
 import os
 import asyncio
 from pyrogram import Client, filters, __version__
@@ -15,7 +10,7 @@ from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL
 from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 
-
+# ultroid official (c)
 
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
@@ -89,7 +84,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')
+                    InlineKeyboardButton('🍁 Youtube', url='https://youtube.com/@ultroidofficial')
                 ]
             ]
         )
