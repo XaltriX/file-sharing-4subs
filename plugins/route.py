@@ -1,10 +1,3 @@
-#(©)Codeflix_Bots
-#rymme
-
-
-
-
-
 from aiohttp import web
 
 routes = web.RouteTableDef()
