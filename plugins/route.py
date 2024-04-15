@@ -11,4 +11,4 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("Codeflix_Bots (Telegram)")
+    return web.json_response("Ultoid_official (Telegram)")
