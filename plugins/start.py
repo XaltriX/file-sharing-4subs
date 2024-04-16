@@ -84,7 +84,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 Youtube', url='https://youtube.com/@ultroidofficial')
+                    InlineKeyboardButton('🍁 Youtube', url='https://t.me/NeonGhost_Networks')
                 ]
             ]
         )
