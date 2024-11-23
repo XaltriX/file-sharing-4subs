@@ -17,7 +17,7 @@ API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204")) # give admin rights all fouth channels ( add yr bot into yr channels)
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1837294444"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7094616922"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 # give admin rights all fouth channels ( add yr bot into yr channels)
 
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1001980994910"))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002370300731"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002177173116"))
 FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002106690102"))
 FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002058538992"))
 
